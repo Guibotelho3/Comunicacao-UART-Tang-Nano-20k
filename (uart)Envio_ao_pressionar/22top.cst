@@ -1,0 +1,11 @@
+IO_LOC "clk" 4;
+IO_LOC "rst" 88;       # cuidado: você já está usando o pino 88 para reset, vou trocar
+IO_LOC "uart_rx" 70;
+IO_LOC "uart_tx" 69;
+IO_LOC "btn" 87;       # KEY1 - botão de usuário
+
+IO_PORT "clk" IO_TYPE=LVCMOS33;
+IO_PORT "rst" IO_TYPE=LVCMOS33;
+IO_PORT "uart_rx" IO_TYPE=LVCMOS33;
+IO_PORT "uart_tx" IO_TYPE=LVCMOS33;
+IO_PORT "btn" IO_TYPE=LVCMOS33;
